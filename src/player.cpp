@@ -29,7 +29,9 @@ void Player::set_vel(float vel){
 void Player::show(){ 
     sf::RectangleShape shap; 
     shap.setPosition(position);
-    shap.setFillColor(sf::Color::Green);
+    sf::Texture dino;
+    dino.loadFromFile("../textures/dino-2.png"); 
+    shap.setTexture(&dino);  
     sf::Vector2 orig(sizee.x/2, sizee.y); 
     shap.setOrigin(orig); 
     shap.setSize(sizee);

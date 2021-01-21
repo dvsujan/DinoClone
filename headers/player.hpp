@@ -12,8 +12,8 @@ public:
     sf::RenderWindow *window ; 
     void set_vel(float vel); 
 private : 
-    float force = gravity+1; 
-    float gravity = 0.84;
+    // float force = gravity+1; 
+    float gravity = 1.4;
     float vel  = 0 ;  
 
 }; 

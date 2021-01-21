@@ -8,5 +8,5 @@ public:
     void show();  
     sf::RenderWindow *window ; 
 private : 
-    float vel = 4; 
+    float vel = 7; 
 }; 
