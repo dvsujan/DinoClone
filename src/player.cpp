@@ -18,8 +18,8 @@ void Player::show(){
     if(position.y>=screen_height){ 
         position.y = screen_height ; 
     } 
-    if(position.y<=0){ 
-        position.y=0 ;
+    if(position.y<=sizee.y){ 
+        position.y=sizee.y ;
     } 
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)){
         position.y-=force;
