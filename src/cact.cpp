@@ -8,13 +8,14 @@ cact::cact(sf::Vector2f position , float sizeeX, sf::RenderWindow *w ){
     this-> window = w; 
 };
 float randx(int max , int min){ 
-    int randint = rand()%(max-min+1)+min; 
+    int randint = rand()%(max-min+1)+min;
+    std::cout<< randint<< std::endl;  
     float radn = (float)randint; 
     return radn ;
 }
 
-float sizee_x = randx(30,50); 
 void cact::show(){ 
+    float sizee_x = randx(30,50); 
     sf::RectangleShape shap; 
     shap.setPosition(position);
     shap.setFillColor(sf::Color::Red);

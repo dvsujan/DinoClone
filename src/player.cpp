@@ -7,6 +7,25 @@ Player::Player(sf::Vector2f position , sf::Vector2f sizee , sf::RenderWindow *w 
     this-> window = w; 
 };
 
+void Player::move(){ 
+    position.y += vel ; 
+    vel+=gravity ;
+    if(position.y>=screen_height){ 
+        position.y = screen_height ; 
+    } 
+     if(position.y<=sizee.y){ 
+        position.y=sizee.y ;
+    }
+}
+
+void Player::jump(){ 
+    vel = -20; 
+}
+
+void Player::set_vel(float vel){ 
+    this->vel = vel ; 
+}
+
 void Player::show(){ 
     sf::RectangleShape shap; 
     shap.setPosition(position);
@@ -14,15 +33,11 @@ void Player::show(){
     sf::Vector2 orig(sizee.x/2, sizee.y); 
     shap.setOrigin(orig); 
     shap.setSize(sizee);
-    position.y+=gravity ; 
-    if(position.y>=screen_height){ 
-        position.y = screen_height ; 
-    } 
-    if(position.y<=sizee.y){ 
-        position.y=sizee.y ;
-    } 
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)){
-        position.y-=force;
+    move();  
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)&& position.y>=screen_height){
+        jump(); 
     }
+    
     window->draw(shap); 
 }
+

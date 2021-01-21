@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
+../headers/cact.hpp
+headers.h
+../headers/headers.h
+
 ../headers/headers.h
 SFML/Graphics.hpp
 -
-
-../headers/player.hpp
-headers.h
-../headers/headers.h
 
 C:/SFML/include/SFML/Config.hpp
 TargetConditionals.h
@@ -684,11 +684,11 @@ SFML/Config.hpp
 
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/player.cpp
+C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/cact.cpp
 headers.h
 C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/headers.h
-player.hpp
-C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/player.hpp
+cact.hpp
+C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/cact.hpp
 iostream
 -
 

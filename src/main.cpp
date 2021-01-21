@@ -19,7 +19,9 @@ void pop_front(std::vector<T> &v)
 int main() 
 {
 	sf::RenderWindow window(sf::VideoMode(screen_width, screen_height), "Chrome Dino Clone");
+	window.setFramerateLimit(144); 
 	fpsc fps(&window) ; 
+	sf::Clock deltatime ; 
 	sf::Vector2f posi(50,screen_height/2); 
 	sf::Vector2f sizes(50,50);
 	Player player(posi, sizes, &window);
@@ -39,7 +41,7 @@ int main()
 		player.show();
 		frame_cnt++ ; 
 
-		if(frame_cnt%2500==0){
+		if(frame_cnt%125==0){
 			int rand_num = rand()%100; 
 			if(rand_num%2 == 0){
 				cactus.push_back(new cact(po, 80.0, &window)); 
@@ -51,11 +53,6 @@ int main()
 	
 		for(int i = 0 ; i<cactus.size(); i++ ){ 
 			cactus[i]->show();
-			// if(cactus[i].getGlobalBounds().intersects(player.getGlobalBounds())){ 
-			// 	break; 
-			// 	window.close(); 
-
-			// }
 		}	
 
 		fps.show_fps(); 
