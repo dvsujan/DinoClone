@@ -195,6 +195,33 @@ src/cloc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pro_1.dir\build.make CMakeFiles/pro_1.dir/src/cloc.cpp.s
 .PHONY : src/cloc.cpp.s
 
+src/dscreen.obj: src/dscreen.cpp.obj
+
+.PHONY : src/dscreen.obj
+
+# target to build an object file
+src/dscreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pro_1.dir\build.make CMakeFiles/pro_1.dir/src/dscreen.cpp.obj
+.PHONY : src/dscreen.cpp.obj
+
+src/dscreen.i: src/dscreen.cpp.i
+
+.PHONY : src/dscreen.i
+
+# target to preprocess a source file
+src/dscreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pro_1.dir\build.make CMakeFiles/pro_1.dir/src/dscreen.cpp.i
+.PHONY : src/dscreen.cpp.i
+
+src/dscreen.s: src/dscreen.cpp.s
+
+.PHONY : src/dscreen.s
+
+# target to generate assembly for a file
+src/dscreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pro_1.dir\build.make CMakeFiles/pro_1.dir/src/dscreen.cpp.s
+.PHONY : src/dscreen.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -264,6 +291,9 @@ help:
 	@echo ... src/cloc.obj
 	@echo ... src/cloc.i
 	@echo ... src/cloc.s
+	@echo ... src/dscreen.obj
+	@echo ... src/dscreen.i
+	@echo ... src/dscreen.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

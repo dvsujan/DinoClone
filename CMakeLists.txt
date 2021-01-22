@@ -3,7 +3,7 @@ project(pro_1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(pro_1 src/main.cpp src/player.cpp headers/player.hpp headers/headers.h src/cact.cpp headers/cact.hpp src/cloc.cpp headers/cloc.hpp)
+add_executable(pro_1 src/main.cpp src/player.cpp headers/player.hpp headers/headers.h src/cact.cpp headers/cact.hpp src/cloc.cpp headers/cloc.hpp src/dscreen.cpp headers/dscreen.hpp)
 
 include_directories(headers /usr/include c:/SFML/include)
 

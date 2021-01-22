@@ -16,6 +16,12 @@ headers.h
 string
 -
 
+../headers/dscreen.hpp
+headers.h
+../headers/headers.h
+string
+-
+
 ../headers/headers.h
 SFML/Graphics.hpp
 -
@@ -703,6 +709,8 @@ cact.hpp
 C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/cact.hpp
 cloc.hpp
 C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/cloc.hpp
+dscreen.hpp
+C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/dscreen.hpp
 string
 -
 iostream

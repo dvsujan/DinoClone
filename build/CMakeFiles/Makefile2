@@ -92,12 +92,12 @@ clean: CMakeFiles/pro_1.dir/clean
 CMakeFiles/pro_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pro_1.dir\build.make CMakeFiles/pro_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pro_1.dir\build.make CMakeFiles/pro_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dvsuj\Desktop\cpp_learning\SFML\pro_2\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target pro_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dvsuj\Desktop\cpp_learning\SFML\pro_2\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target pro_1"
 .PHONY : CMakeFiles/pro_1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pro_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dvsuj\Desktop\cpp_learning\SFML\pro_2\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dvsuj\Desktop\cpp_learning\SFML\pro_2\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pro_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dvsuj\Desktop\cpp_learning\SFML\pro_2\build\CMakeFiles 0
 .PHONY : CMakeFiles/pro_1.dir/rule

@@ -18,5 +18,10 @@
   "directory": "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/build",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/pro_1.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\pro_1.dir\\src\\cloc.cpp.obj -c C:\\Users\\dvsuj\\Desktop\\cpp_learning\\SFML\\pro_2\\src\\cloc.cpp",
   "file": "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/cloc.cpp"
+},
+{
+  "directory": "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/pro_1.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\pro_1.dir\\src\\dscreen.cpp.obj -c C:\\Users\\dvsuj\\Desktop\\cpp_learning\\SFML\\pro_2\\src\\dscreen.cpp",
+  "file": "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/dscreen.cpp"
 }
 ]

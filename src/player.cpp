@@ -27,7 +27,6 @@ void Player::set_vel(float vel){
 }
 
 void Player::show(){ 
-    sf::RectangleShape shap; 
     shap.setPosition(position);
     sf::Texture dino;
     dino.loadFromFile("../textures/dino-2.png"); 

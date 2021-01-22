@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/cact.cpp" "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/build/CMakeFiles/pro_1.dir/src/cact.cpp.obj"
   "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/cloc.cpp" "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/build/CMakeFiles/pro_1.dir/src/cloc.cpp.obj"
+  "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/dscreen.cpp" "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/build/CMakeFiles/pro_1.dir/src/dscreen.cpp.obj"
   "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/main.cpp" "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/build/CMakeFiles/pro_1.dir/src/main.cpp.obj"
   "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/src/player.cpp" "C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/build/CMakeFiles/pro_1.dir/src/player.cpp.obj"
   )

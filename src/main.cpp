@@ -1,7 +1,8 @@
 #include"headers.h"
 #include"player.hpp"
 #include"cact.hpp"
-#include"cloc.hpp" 
+#include"cloc.hpp"
+#include"dscreen.hpp" 
 #include<string>
 #include<iostream>  
 #include<vector> 
@@ -18,8 +19,12 @@ void pop_front(std::vector<T> &v)
 
 int main() 
 {
+	bool is_collided = false ; 
 	sf::RenderWindow window(sf::VideoMode(screen_width, screen_height), "Chrome Dino Clone");
-	window.setFramerateLimit(60); 
+	window.setFramerateLimit(60);
+
+	// Dscreen* screen;
+	// screen = new Dscreen(); 
 	fpsc fps(&window) ;
 	sf::Texture background; 
 	background.loadFromFile("../textures/back.jpg");
@@ -48,8 +53,8 @@ int main()
 		player.show();
 		frame_cnt++ ; 
 
-		if(frame_cnt%50==0){
-			int rand_num = rand()%100; 
+		if(frame_cnt%40==0){
+			int rand_num = rand()%1000; 
 			if(rand_num%2 == 0){
 				cactus.push_back(new cact(po, 80.0, &window)); 
 			} 
@@ -60,9 +65,14 @@ int main()
 	
 		for(int i = 0 ; i<cactus.size(); i++ ){ 
 			cactus[i]->show();
-		}	
+			if(player.shap.getGlobalBounds().intersects(cactus[i]->shap.getGlobalBounds())){
+				window.close();  
+				break ; 	
+			}	
+		}
+		int score = frame_cnt/5 ; 	
 
-		fps.show_fps(); 
+		fps.show_fps(score); 
 		window.display(); 
 	
 	} 

@@ -10,6 +10,7 @@ public:
     void jump(); 
     void move();  
     sf::RenderWindow *window ; 
+    sf::RectangleShape shap ;  
     void set_vel(float vel); 
 private : 
     // float force = gravity+1; 

@@ -5,5 +5,5 @@ class fpsc{
 public:
     fpsc(sf::RenderWindow *w); 
     sf::RenderWindow *window ;  
-    void show_fps();  
+    void show_fps(int csore);  
 }; 
