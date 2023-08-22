@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\pro_1.dir/objects.a
-C:\mingw64\bin\ar.exe cr CMakeFiles\pro_1.dir/objects.a @CMakeFiles\pro_1.dir\objects1.rsp
-C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\pro_1.dir/objects.a -Wl,--no-whole-archive -o pro_1.exe -Wl,--out-implib,libpro_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pro_1.dir\linklibs.rsp

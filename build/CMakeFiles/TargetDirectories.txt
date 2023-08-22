@@ -1,3 +1,0 @@
-C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/build/CMakeFiles/pro_1.dir
-C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/build/CMakeFiles/edit_cache.dir
-C:/Users/dvsuj/Desktop/cpp_learning/SFML/pro_2/build/CMakeFiles/rebuild_cache.dir
